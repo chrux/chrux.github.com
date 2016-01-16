@@ -1,0 +1,23 @@
+- name: Github
+  url: https://github.com/chrux
+  class: fa-github
+
+- name: Bitbucket
+  url: https://bitbucket.org/chrux
+  class: fa-bitbucket
+
+- name: Facebook
+  url: http://www.facebook.com/christian.torres
+  class: fa-facebook
+
+- name: LinkedIn
+  url: http://www.linkedin.com/pub/christian-torres/25/539/521
+  class: fa-linkedin
+
+- name: Twitter
+  url: http://twitter.com/chrux
+  class: fa-twitter
+
+- name: E-mail
+  url: mailto://chtorrez@gmail.com
+  class: fa-paper-plane-o

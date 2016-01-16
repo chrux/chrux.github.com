@@ -1,0 +1,13 @@
+# Site settings
+title: Christian Torres
+email: chtorrez@gmail.com
+description: |
+  <strong>I am a Senior Mobile and Web<br/> Developer</strong> who also love <br/>Graphic Design.<br />
+  <strong>Working at <a href="http://rain.agency">RAIN</a></strong>
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://christiantorres.me" # the base hostname & protocol for your site
+
+# Build settings
+markdown: kramdown
+
+gems: []

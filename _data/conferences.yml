@@ -1,0 +1,19 @@
+- name: Startechconf 2013
+  url: http://2013.startechconf.com/
+  date: "Octuber 25th & 26th, 2013"
+  where: |
+    Campus San Joaquín, Universidad Técnica Federico Santa María.
+    Santiago, Chile.
+
+- name: Startechconf 2011
+  url: http://2011.startechconf.com/
+  date: "Novembre 4th & 5th, 2011"
+  where: |
+    Campus San Joaquín, Universidad Técnica Federico Santa María.
+    Santiago, Chile.
+
+- name: pgConf 2010
+  url: http://www.pgcon.org/2010/
+  date: "May 18th-21st, 2010"
+  where: |
+    University of Ottawa. Ottawa, Canada.

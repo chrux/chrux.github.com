@@ -1,0 +1,59 @@
+@charset "UTF-8";
+
+// Mixins
+
+@mixin box-sizing($box-sizing) {
+	-moz-box-sizing: $box-sizing;
+	-webkit-box-sizing: $box-sizing;
+	box-sizing: $box-sizing;
+}
+
+@mixin animation($animation) {
+	-moz-animation: $animation;
+	-webkit-animation: $animation;
+	-ms-animation: none $animation;
+	animation: $animation;
+}
+
+@mixin transition($transition...) {
+	-moz-transition: $transition;
+	-webkit-transition: $transition;
+	-ms-transition: $transition;
+	transition: $transition;
+}
+
+@mixin appearance($appearance) {
+	-moz-appearance: $appearance;
+	-webkit-appearance: none;
+	-ms-appearance: none;
+	appearance: none;
+}
+
+@mixin transform($transform) {
+	-moz-transform: $transform;
+	-webkit-transform: $transform;
+	-ms-transform: $transform;
+	transform: $transform;
+}
+
+// retina.sass
+// A helper mixin for applying high-resolution background images (http://www.retinajs.com)
+// https://github.com/imulus/retinajs/blob/master/src/_retina.scss
+
+// Submitted by Nathan Crank
+// nathancrank.com
+
+@mixin at2x($path, $ext: "jpg", $w: auto, $h: auto) {
+  $at1x_path: "#{$path}.#{$ext}";
+  $at2x_path: "#{$path}@2x.#{$ext}";
+
+  background-image: url("#{$at1x_path}");
+
+  @media all and (-webkit-min-device-pixel-ratio : 1.5),
+         all and (-o-min-device-pixel-ratio: 3/2),
+         all and (min--moz-device-pixel-ratio: 1.5),
+         all and (min-device-pixel-ratio: 1.5) {
+           background-image: url("#{$at2x_path}");
+           background-size: $w $h;
+  }
+}

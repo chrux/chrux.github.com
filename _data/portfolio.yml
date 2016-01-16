@@ -1,0 +1,98 @@
+- name: Chargello
+  url: 
+    - name: App Store
+      url: https://itunes.apple.com/us/app/chargello/id984178676
+      class: iphone
+    - name: Google Play
+      url: https://play.google.com/store/apps/details?id=com.chargello
+      class: android
+  thumb: chargello-thumb.png    
+  pic: chargello.jpg
+  summary: |
+    Chargello Apps helps you find places to charge your phone battery for free.
+  date: March 2015 - January 2016
+  role:
+    - Developer
+  client: "Chargello, LLC"
+  site: http://www.chargello.com/
+  type: 
+    - Mobile
+    - Android
+    - iOs
+
+- name: NicaSlang
+  url:
+    # - name: App Store
+    #   url: 
+    #   class: iphone
+    - name: Google Play
+      url: https://play.google.com/store/apps/details?id=com.nicaslang.app
+      class: android
+  thumb: nicaslang-thumb.jpg
+  pic: nicaslang.jpg
+  summary: |
+    With the NicaSlang app, find hundreds of slang definitions in seconds.
+  date: August 2014 - January 2016
+  role:
+    - Developer
+    - Design
+  client: Elder Soto
+  site: http://nicaslang.com/
+  type:
+    - Mobile
+    - Phonegap/Cordova
+    - Ionic framework
+    - Android
+    - iOs
+
+- name: Farma Descuento
+  url:
+    - name: App Store
+      url: https://itunes.apple.com/es/app/farma-descuento-nicaragua/id941674965
+      class: iphone
+    - name: Google Play
+      url: https://play.google.com/store/apps/details?id=com.farma_descuento.app
+      class: android
+  thumb: farmadescuento-thumb.jpg
+  pic: farmadescuento.jpg
+  summary: |
+    Farma Descuento Drug Store Official App.
+  date: April 2014 - February 2015
+  role:
+    - Developer
+  client: Farma Descuento
+  site: http://www.farmadescuento.com.ni/
+  type:
+    - Mobile
+    - Phonegap/Cordova
+    - Ionic framework
+    - Android
+    - iOs
+
+- name: BAC Móvil
+  url:
+    - name: App Store for iPhone
+      url: https://itunes.apple.com/es/app/bcn-movil/id473878192?mt=8
+      class: iphone
+    - name: App Store for iPad
+      url: https://itunes.apple.com/es/app/bcn-movil-para-ipad/id512647873?mt=8
+      class: ipad
+    - name: Google Play
+      url: https://play.google.com/store/apps/details?id=ni.gob.bcn.android
+      class: android
+  thumb: bcn-thumb.jpg
+  pic: bcn.jpg
+  summary: |
+    Central Bank of Nicaragua Official App. Here you can find economic indicators, publications and others.
+  date: September 2013 - March 2014
+  role:
+    - Developer
+    - Design
+  client: Central Bank of Nicaragua
+  site: http://www.bcn.gob.ni/
+  type:
+    - Mobile
+    - Android
+    - iOs
+    - Design
+

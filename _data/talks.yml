@@ -1,0 +1,14 @@
+- name: "Drupal 7: Intro"
+  where: FLISOL
+  date: "April 26th, 2014"
+  url: https://docs.google.com/presentation/u/1/d/1PAxoXLSjSv2RDsLq7nlXyx-1x-oPx9mUyiRIx8sHomk/edit?usp=sharing
+
+- name: Assets (LESS, Compressor CSS/JS) y Django
+  where: Python Day Nicaragua #1
+  date: April 4th, 2014
+  url: https://docs.google.com/presentation/d/1d3WOPIg-xBGBWM0XA1tTj78vF9QbgDokgQevYSCFrYY/edit
+
+- name: Introducción al Desarrollo Web con Symfony2
+  where: Co-Labora
+  date: June 19th, 2013
+  url: talk/symfony2-intro/index.html
