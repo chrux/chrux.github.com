@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-			<section id="two">
+			<section id="portfolio">
 				<h2>Recent Work</h2>
 				<div class="row">
 				 	{% for work in site.data.portfolio %}
@@ -17,7 +17,7 @@ layout: default
 					<li><a href="#" class="button">Full Portfolio</a></li>
 				</ul>
 				{% endcomment %}
-
+				<div id="portfolio-details">
 				{% for work in site.data.portfolio %}
     			<div id="work{{forloop.index}}" class="workModal">
         			<div class="closebt-container close-work{{forloop.index}} top"> 
@@ -50,9 +50,10 @@ layout: default
        				</div>
     			</div>
     			{% endfor %}
+    			</div>
 			</section>
 
-			<section id="three">
+			<section id="others">
 				<div class="row">
 					<div class="6u 12u$(xsmall)">
 						<h2>Talks</h2>

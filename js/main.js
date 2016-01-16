@@ -82,6 +82,7 @@
 					modalTarget: $(this).data("target")
 				});
 			});
+			$("#portfolio-details").show();
 		});
 	});
 })(jQuery);
