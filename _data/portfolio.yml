@@ -69,7 +69,7 @@
     - Android
     - iOs
 
-- name: BAC Móvil
+- name: BCN Móvil
   url:
     - name: App Store for iPhone
       url: https://itunes.apple.com/es/app/bcn-movil/id473878192?mt=8
