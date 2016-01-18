@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+        <!-- Slide meta data, remove/edit as you see fit -->
+        <title>Symfony2 Intro</title>
+
+        <meta name="author" content="Christian Torres" />
+        <meta name="company" content="Clov3rLabs" />
+        <meta name="email" content="ctorres@clov3rlabs.com" />
+        <meta name="date" content="2013-06-17" />
+        <meta name="venue" content="#miercolesdeweb en @co_labora. Junio 19/2013" />
+
+        <!-- Slippy core file and dependencies -->
+        <script type="text/javascript" src="jquery.min.js"></script>
+        <script type="text/javascript" src="jquery.history.js"></script>
+        <script type="text/javascript" src="slippy.js"></script>
+        <!-- Slippy structural styles -->
+        <link type="text/css" rel="stylesheet" href="slippy.css"/>
+        <!-- Slippy theme -->
+        <link type="text/css" rel="stylesheet" href="slippy-chrux.css"/>
+        <!-- Syntax highlighting core file  -->
+        <script type="text/javascript" src="highlighter/shCore.js"></script>
+        <!-- Syntax highlighting brushes, remove those you don't need -->
+        <script type="text/javascript" src="highlighter/shBrushBash.js"></script>
+        <script type="text/javascript" src="highlighter/shBrushCpp.js"></script>
+        <script type="text/javascript" src="highlighter/shBrushCSharp.js"></script>
+        <script type="text/javascript" src="highlighter/shBrushCss.js"></script>
+        <script type="text/javascript" src="highlighter/shBrushDelphi.js"></script>
+        <script type="text/javascript" src="highlighter/shBrushDiff.js"></script>
+        <script type="text/javascript" src="highlighter/shBrushGroovy.js"></script>
+        <script type="text/javascript" src="highlighter/shBrushJava.js"></script>
+        <script type="text/javascript" src="highlighter/shBrushJScript.js"></script>
+        <script type="text/javascript" src="highlighter/shBrushPhp.js"></script>
+        <script type="text/javascript" src="highlighter/shBrushPlain.js"></script>
+        <script type="text/javascript" src="highlighter/shBrushPython.js"></script>
+        <script type="text/javascript" src="highlighter/shBrushRuby.js"></script>
+        <script type="text/javascript" src="highlighter/shBrushScala.js"></script>
+        <script type="text/javascript" src="highlighter/shBrushSql.js"></script>
+        <script type="text/javascript" src="highlighter/shBrushVb.js"></script>
+        <script type="text/javascript" src="highlighter/shBrushXml.js"></script>
+        <!-- Syntax highlighting styles-->
+        <link type="text/css" rel="stylesheet" href="highlighter/shCore.css"/>
+        <link type="text/css" rel="stylesheet" href="highlighter/shThemeEclipse.css"/>
+        <!-- Slippy init code -->
+        <script type="text/javascript">
+            $(function() {
+                $(".slide").slippy({
+                    // settings go here
+                    // possible values are:
+                    //  - animLen, duration for default animations (0 = disabled)
+                    //  - animInForward, receives a slide and animates it
+                    //  - animInRewind, receives a slide and animates it
+                    //  - animOutForward, receives a slide and animates it
+                    //  - animOutRewind, receives a slide and animates it
+                    //  - baseWidth, defines the base for img resizing, if you don't want only
+                    //    full-width images, specify this as the pixel width of a slide so that
+                    //    images are scaled properly (default is 620px wide)
+                    //  - ratio, defines the width/height ratio of the slides, defaults to 1.3 (620x476)
+                    //  - margin, the fraction of screen to use as slide margin, defaults to 0.15
+                });
+                SyntaxHighlighter.all();
+            });
+        </script>
+        <!-- Custom style for this deck -->
+        <style type="text/css">
+            .slide.nofooter {
+                border: 0;
+                background: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="slide big">
+            <div class="vcenter">
+                <h1>
+                    Christian Torres<br>
+                    @chrux<br>
+                    http://ctorres.clov3r.net/
+                </h1>
+                <br>
+                <h1>Introducción al Desarrollo Web con <em>Symfony2</em></h1>
+            </div>
+        </div>
+
+        <div class="slide">
+            <h1>¿Qué es?</h1>
+            <div class="vcenter">
+                <img src="img/symfony_logo.png" height="100" />
+                <br>
+                <br>
+                <p class="incremental">&laquo;Framework PHP&raquo;</p>
+                <p class="incremental">MVC</p>
+                <p class="incremental">Versatil</p>
+                <p class="incremental">Útil</p>
+                <p class="incremental">Buenas prácticas</p>
+            </div>
+        </div>
+
+        <div class="slide">
+            <h1>¿Buenas prácticas?</h1>
+            <div class="vcenter" style="text-align: center">
+                <img src="img/1-buenas-practicas.png" />
+            </div>
+        </div>
+
+        <div class="slide">
+            <h1>¿Buenas prácticas?</h1>
+            <div class="vcenter" style="text-align: center">
+                <img src="img/2-spring-symfony.png" />
+            </div>
+        </div>
+
+        <div class="slide">
+            <h1>¿Buenas prácticas?</h1>
+            <div class="vcenter" style="text-align: center">
+                <img src="img/3-hibernate-symfony.png" />
+            </div>
+        </div>
+
+        <div class="slide">
+            <h1>¿Buenas prácticas?</h1>
+            <div class="vcenter" style="text-align: center">
+                <img src="img/4-rails-symfony.png" />
+            </div>
+        </div>
+
+        <div class="slide">
+            <h1>¿Buenas prácticas?</h1>
+            <div class="vcenter" style="text-align: center">
+                <img src="img/5-django-symfony.png" />
+            </div>
+        </div>
+
+        <div class="slide">
+            <h1>¿Qué es?</h1>
+            <div class="vcenter">
+                <img src="img/symfony_logo.png" height="100" />
+                <br>
+                <br>
+                <p>&laquo;Framework PHP&raquo;</p>
+                <p>MVC</p>
+                <p>Versatil</p>
+                <p>Útil</p>
+                <p>Buenas prácticas</p>
+                <p class="incremental">Flexible</p>
+                <p class="incremental">Soporte</p>
+            </div>
+        </div>
+
+        <div class="slide big">
+            <div class="vcenter">
+                <h1>Bueno..., ¿y el código? <em>XD</em></h1>
+                <h1 class="incremental"><em>:D</em> Vamos a la instalación y primeros pasos</h1>
+            </div>
+        </div>
+
+        <div class="slide big">
+            <div class="vcenter">
+                <ol>
+                    <li><h2>Instalación</h2></li>
+                    <li><h2>Bundle</h2></li>
+                    <li><h2>Controlador y Rutas</h2></li>
+                    <li><h2>Modelo y Doctrine</h2></li>
+                    <li><h2>Vista y Twig</h2></li>
+                </ol>
+            </div>
+        </div>
+
+        <div class="slide big">
+            <div class="vcenter">
+                <h1>Instalando Symfony2</h1>
+                <ol>
+                    <li>Ir a <a href="http://www.symfony.com/download" target="_blank">symfony.com/download</a></li>
+                    <li>
+                        Descargar (¿<em>CON</em> o <em>SIN</em>? vendors)
+                        <br>
+                        <span class="incremental">vendors son libs (externas) que se utilizan en symfony</span>
+                    </li>
+                </ol>
+            </div>
+        </div>
+
+        <div class="slide big">
+            <div class="vcenter">
+                <h1>Instalando Symfony2</h1>
+                <ol>
+                    <li>Ir a <a href="http://www.symfony.com/download" target="_blank">symfony.com/download</a></li>
+                    <li>
+                        Descargar (<em>CON</em> vendors)
+                    </li>
+                    <li>Colocar la carpeta en el directorio público de apache o si tienes configurado un dominio en apache para esto asegurarse de publicar el directorio web/</li>
+                </ol>
+            </div>
+        </div>
+
+        <div class="slide big">
+            <div class="vcenter">
+                <h1>Instalando Symfony2</h1>
+                <ol>
+                    <li>Ir a <a href="http://www.symfony.com/download" target="_blank">symfony.com/download</a></li>
+                    <li>
+                        Descargar (<em>SIN</em> vendors)
+                    </li>
+                    <li>Colocar la carpeta en el directorio público de apache o si tienes configurado un dominio en apache para esto asegurarse de publicar el directorio web/</li>
+                    <li class="incremental">Abrir la terminal</li>
+                    <li class="incremental">Instalar los vendors</li>
+                </ol>
+                <pre class="incremental brush: bash">
+                    curl -s https://getcomposer.org/installer | php # Instalando Composer
+                    php composer.phar install # Instalando vendors o dependencias
+                </pre>
+            </div>
+        </div>
+
+        <div class="slide big">
+            <div class="vcenter">
+                <h1>Instalando Symfony2</h1>
+                <h3>Permisos (Siempre en la terminal)</h3>
+                <strong>chmod (probado en Mac)</strong>
+                <pre class="brush: bash">
+                    sudo rm -rf app/cache/* app/logs/*
+                    sudo chmod +a "_www allow delete,write,append,file_inherit,directory_inherit" app/cache app/logs
+                    sudo chmod +a "`whoami` allow delete,write,append,file_inherit,directory_inherit" app/cache app/logs
+                </pre>
+            </div>
+        </div>
+
+        <div class="slide big">
+            <div class="vcenter">
+                <h1>Instalando Symfony2</h1>
+                <h3>Permisos (Siempre en la terminal)</h3>
+                <strong>setfacl (probado en CentOS)</strong>
+                <pre class="brush: bash">
+                    sudo rm -rf app/cache/* app/logs/*
+                    sudo setfacl -R -m u:www-data:rwx -m u:`whoami`:rwx app/cache app/logs
+                    sudo setfacl -dR -m u:www-data:rwx -m u:`whoami`:rwx app/cache app/logs
+                </pre>
+            </div>
+        </div>
+
+        <div class="slide big">
+            <div class="vcenter">
+                <h1>Instalando Symfony2</h1>
+                <h3>Permisos</h3>
+                <strong>en Windows ¿¿¿???</strong>
+                <pre class="brush: bash">
+                    ...
+                </pre>
+                <br>
+                <h3>R U Kidding?</h3>
+                <h3 class="incremental">I duno XD</h3>
+            </div>
+        </div>
+
+        <div class="slide big">
+            <div class="vcenter">
+                <h1>Usando el Generador Interactivo</h1>
+                <br>
+                <div style="text-align: center;">Vamos a la terminal</div>
+                <br>
+                <pre class="brush: bash">
+                    php app/console
+                </pre>
+                o
+                <pre class="brush: bash">
+                    php app/console -s
+                </pre>
+            </div>
+        </div>
+
+        <div class="slide big">
+            <div class="vcenter">
+                <h1>Bundle</h1>
+                Directorio que tiene una estructura bien definida y almacena todas las clases y recursos.
+                Algunos de los directorios más usados:
+                <br>
+                <br>
+                <pre>
+                    Command/
+                    Controller/
+                    Resources/config/
+                    Resources/public/
+                    Resources/translations/
+                    Resources/views/
+                    Tests/
+                    Entity/
+                </pre>
+            </div>
+        </div>
+
+        <div class="slide big">
+            <div class="vcenter">
+                <h1>Bundle</h1>
+                ¿Como nombrarlos?
+                <br>
+                <br>
+                <strong><em>Vendor</em></strong> ( / <strong><em>Categoria</em></strong> ) / <strong><em>Nombre</em></strong>Bundle
+                <br>
+                <br>
+                <div class="incremental"><em>Vendor</em>: TuEmpresa, TuProyecto o TuCliente</div>
+                <div class="incremental"><em>Categoria</em>: Opcional, casi no se usa pero por ejemplo se puede usar para identificar el sitio web</div>
+                <div class="incremental"><em>Nombre</em>: El nombre del Bundle que es obligatorio que acabe en bundle</div>
+            </div>
+        </div>
+
+        <div class="slide big">
+            <div class="vcenter">
+                <h1>Bundle</h1>
+                <ol>
+                    <li>Abrir la terminal</li>
+                </ol>
+                <pre class="brush: bash">
+                    php app/console generate:bundle # Y seguir el asistente
+                </pre>
+            </div>
+        </div>
+
+        <div class="slide big">
+            <div class="vcenter">
+                <h1>Como trabaja Symfony</h1>
+                <div style="text-align: center"><img src="img/1-request-start.png" /></div>
+            </div>
+        </div>
+        <div class="slide big">
+            <div class="vcenter">
+                <h1>Como trabaja Symfony</h1>
+                <div style="text-align: center"><img src="img/2-request-routing.png" /></div>
+            </div>
+        </div>
+
+        <div class="slide big">
+            <div class="vcenter">
+                <h1>Como trabaja Symfony</h1>
+                <div style="text-align: center"><img src="img/3-request-controller.png" /></div>
+            </div>
+        </div>
+
+        <div class="slide big">
+            <div class="vcenter">
+                <h1>Como trabaja Symfony</h1>
+                <div style="text-align: center"><img src="img/4-request-controller-view.png" /></div>
+            </div>
+        </div>
+
+        <div class="slide big">
+            <div class="vcenter">
+                <h1>Como trabaja Symfony</h1>
+                <div style="text-align: center"><img src="img/5-request-mvc.png" /></div>
+            </div>
+        </div>
+
+        <div class="slide big">
+            <div class="vcenter">
+                <h1>Controlador</h1>
+                <ol>
+                    <li>Abrir la terminal</li>
+                </ol>
+                <pre class="brush: bash">
+                    php app/console generate:controller # Y seguir el asistente
+                </pre>
+            </div>
+        </div>
+
+        <div class="slide big">
+            <div class="vcenter">
+                <h1>Modelo</h1>
+                <ol>
+                    <li>Abrir la terminal</li>
+                </ol>
+                <pre class="brush: bash">
+                    php app/console generate:doctrine:entity # Y seguir el asistente
+                    php app/console doctrine:schema:update # Para mandar a la BD
+                </pre>
+            </div>
+        </div>
+
+        <div class="slide big">
+            <div class="vcenter">
+                <h1>Vista</h1>
+                <ol>
+                    <li>Abrir el editor de código</li>
+                </ol>
+            </div>
+        </div>
+
+        <div class="slide big">
+            <div class="vcenter">
+                <h1>Recursos</h1>
+                <h2>Documentación</h2>
+                <ul>
+                    <li><a href="http://symfony.com" target="_blank">symfony.com/</a></li>
+                    <li><a href="http://twig.sensiolabs.org/" target="_blank">twig</a></li>
+                    <li><a href="http://www.symfony.es" target="_blank">symfony.es/</a></li>
+                    <li><a href="https://symfonybricks.com/" target="_blank">symfonybricks.com/</a></li>
+                </ul>
+                <h2>Bundles</h2>
+                <ul>
+                    <li><a href="http://knpbundles.com/" target="_blank">knpbundles.com/</a> <span class="incremental">colección de bundles</span></li>
+                    <li><a href="http://symfony.com/doc/current/bundles/DoctrineFixturesBundle/index.html" target="_blank">DoctrineFixturesBundle</a></span></li>
+                    <li><a href="http://symfony.com/doc/current/bundles/DoctrineMigrationsBundle/index.html" target="_blank">DoctrineMigrationsBundle</a></span></li>
+                    <li><a href="http://symfony.com/doc/current/bundles/DoctrineMongoDBBundle/index.html" target="_blank">DoctrineMongoDBBundle</a></span></li>
+                    <li><a href="https://github.com/FriendsOfSymfony/FOSUserBundle" target="_blank">FOSUserBundle</a></li>
+                    <li><a href="https://github.com/sonata-project/SonataAdminBundle" target="_blank">SonataAdminBundle</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="layout" data-name="default">
+            <content></content>
+        </div>
+
+        <div class="footer">
+            <span class="left"><a href="http://twitter.com/search?q=%23miercolesdeweb" target="_blank">#miercolesdeweb</a> en <a href="http://twitter.com/co_labora" target="_blank">@co_labora</a>. Junio 19/2013</span>
+            <span class="left">Christian Torres</span>
+            <span class="right">Desarrollador iOS & Web</span>
+            <span class="left">Twitter <a href="http://twitter.com/chrux" target="_blank">@chrux</a></span>
+            <span class="right">Web <a href="http://ctorres.clov3r.net/" target="_blank">ctorres.clov3r.net</a></span>
+            <hr class="defloat" />
+        </div>
+    </body>
+</html>
