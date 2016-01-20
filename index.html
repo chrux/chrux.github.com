@@ -25,13 +25,13 @@ layout: default
        				</div>
             
         			<div class="modal-content">
-        				<article class="container">
+        				<div>
         					<div class="row">
-        						<div class="col-md-offset-1 col-md-10">
+        						<div class="col-md-offset-1 col-md-10 col-xs-12 col-xs-offset-0 col-sm-12 col-sm-offset-0">
                   					<h2>{{ work.name }}</h2>
                   					<p class="intro">{{ work.summary }}</p>
                   					<img src="{{ work.pic | prepend: "/upload/portfolio/" | prepend: site.baseurl }}" class="img-responsive" />
-                  					<p class="detail">
+                  					<div class="detail">
                   						<p>
                   							{% for url in work.url %}
                   							<a href="{{ url.url }}" class="btn {{ url.class }}" target="_blank">{{ url.name }}</a>
@@ -39,10 +39,10 @@ layout: default
                   						</p>
                   						Date: {{ work.date }} | Client : <a href="{{ work.site }}" target="_blank">{{ work.client }}</a><br />
                   						Role: {% for role in work.role %}{{ role }}{% if forloop.last != true %}, {% endif %}{% endfor %} | Type: {% for type in work.type %}{{ type }}{% if forloop.last != true %}, {% endif %}{% endfor %}
-                  					</p>
+                  					</div>
                   				</div>
                   			</div>
-                  		</article>
+                  		</div>
         			</div>
 
         			<div class="closebt-container close-work{{forloop.index}} bottom"> 
