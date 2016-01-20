@@ -3056,9 +3056,11 @@ body.is-touch .poptrox-popup .closer {
 		&.intro {
 			font-style: italic;
 		}
-		&.detail {
-			margin-top:20px;
-		}
+	}
+	.detail {
+		margin-top:20px;
+		padding-left:16px;
+		padding-left:16px;
 	}
 	a {
 		&:hover {
