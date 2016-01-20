@@ -21,7 +21,7 @@ layout: default
 				{% for work in site.data.portfolio %}
     			<div id="work{{forloop.index}}" class="workModal">
         			<div class="closebt-container close-work{{forloop.index}} top"> 
-            			<img class="closebt" src="images/closebt.svg">
+            			<img class="closebt" src="images/closebt.svg" data-no-retina />
        				</div>
             
         			<div class="modal-content">
@@ -30,7 +30,7 @@ layout: default
         						<div class="col-md-offset-1 col-md-10 col-xs-12 col-xs-offset-0 col-sm-12 col-sm-offset-0">
                   					<h2>{{ work.name }}</h2>
                   					<p class="intro">{{ work.summary }}</p>
-                  					<img src="{{ work.pic | prepend: "/upload/portfolio/" | prepend: site.baseurl }}" class="img-responsive" />
+                  					<img src="{{ work.pic | prepend: "/upload/portfolio/" | prepend: site.baseurl }}" class="img-responsive" data-no-retina />
                   					<div class="detail">
                   						<p>
                   							{% for url in work.url %}
@@ -46,7 +46,7 @@ layout: default
         			</div>
 
         			<div class="closebt-container close-work{{forloop.index}} bottom"> 
-            			<img class="closebt" src="images/closebt.svg">
+            			<img class="closebt" src="images/closebt.svg" data-no-retina />
        				</div>
     			</div>
     			{% endfor %}
