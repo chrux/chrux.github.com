@@ -1,3 +1,25 @@
+- name: PromoKatch
+  url: 
+    - name: App Store
+      url: https://itunes.apple.com/ni/app/promokatch/id1052356833?mt=8
+      class: iphone
+    - name: Google Play
+      url: https://play.google.com/store/apps/details?id=com.promokatch.android
+      class: android
+  thumb: promokatch-thumb.png    
+  pic: promokatch.jpg
+  summary: |
+    PromoKatch captura en tu celular todas las promociones que te rodean en el momento en que realmente las necesitas. 
+  date: November 2015 - September 2016
+  role:
+    - Developer
+  client: "SNIPER S.A."
+  site: http://www.promokatch.com/
+  type: 
+    - Mobile
+    - Android
+    - iOs
+
 - name: Chargello
   url: 
     - name: App Store
