@@ -8,7 +8,7 @@ layout: default
 					<article class="6u 12u$(xsmall) work-item">
 						<a id="workModal{{forloop.index}}" href="#work{{forloop.index}}" data-target="work{{forloop.index}}" class="work image fit thumb"><img src="{{ work.thumb | prepend: "/upload/portfolio/" | prepend: site.baseurl }}" alt="" /></a>
 						<h3>{{ work.name }}</h3>
-						<p>{{ work.summary }}</p>
+						<p>{{ work.summary | truncatewords: 8 }}</p>
 					</article>
 					{% endfor %}
 				</div>
@@ -30,7 +30,7 @@ layout: default
         						<div class="col-md-offset-1 col-md-10 col-xs-12 col-xs-offset-0 col-sm-12 col-sm-offset-0">
                   					<h2>{{ work.name }}</h2>
                   					<p class="intro">{{ work.summary }}</p>
-                  					<img src="{{ work.pic | prepend: "/upload/portfolio/" | prepend: site.baseurl }}" class="img-responsive" data-no-retina />
+                  					<img src="{{ work.pic | prepend: "/upload/portfolio/" | prepend: site.baseurl }}" class="img-responsive align-center" data-no-retina />
                   					<div class="detail">
                   						<p>
                   							{% for url in work.url %}
