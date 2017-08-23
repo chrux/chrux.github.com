@@ -1,3 +1,24 @@
+- name: Vida Silvestre
+  url: 
+    - name: App Store
+      url: http://bit.ly/vida-silvestre-ios
+      class: ios
+    - name: Google Play
+      url: http://bit.ly/vida-silvestre
+      class: android
+  thumb: vidasilvestre-thumb.png    
+  pic: vidasilvestre.png
+  summary: |
+    Vida Silvestre Vida es una herramienta diseñada para que los inspectores de vida silvestre, aduaneros y oficiales de Gobierno conozcan sobre las normas que regulan la protección, conservación y comercio de flora y fauna silvestres, y además cuenten con la posibilidad de reportar incidencias de tráfico ilegal de forma más rápida usando nuevas tecnologías.
+  date: January 2017 - August 2017
+  role:
+    - Developer
+  client: "Oficina Regional DOI-ITAP"
+  site: http://www.roavis.net
+  type: 
+    - Mobile
+    - iOS
+
 - name: PromoKatch
   url: 
     - name: App Store
@@ -18,7 +39,7 @@
   type: 
     - Mobile
     - Android
-    - iOs
+    - iOS
 
 - name: Chargello
   url: 
@@ -40,7 +61,7 @@
   type: 
     - Mobile
     - Android
-    - iOs
+    - iOS
 
 - name: NicaSlang
   url:
@@ -65,7 +86,7 @@
     - Phonegap/Cordova
     - Ionic framework
     - Android
-    - iOs
+    - iOS
 
 - name: Farma Descuento
   url:
@@ -89,7 +110,7 @@
     - Phonegap/Cordova
     - Ionic framework
     - Android
-    - iOs
+    - iOS
 
 - name: BCN Móvil
   url:
@@ -115,6 +136,6 @@
   type:
     - Mobile
     - Android
-    - iOs
+    - iOS
     - Design
 
