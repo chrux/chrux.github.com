@@ -57,7 +57,7 @@ layout: default
 				<h2>Certifications</h2>
 				<div class="row">
 				 	{% for certificate in site.data.certificates %}
-					<article class="3u 12u$(xsmall) work-item">
+					<article class="3u 12u$(xsmall) certification-item">
 						<a href="{{ certificate.url }}"><img src="{{ certificate.badge }}" alt="{{ certificate.name }}" /></a>
 						<h3>{{ certificate.name }}</h3>
 						<p>{{ certificate.date }} at {{ certificate.where }}</p>

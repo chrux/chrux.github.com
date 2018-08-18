@@ -2433,6 +2433,11 @@ input[type="button"]:disabled,
 	margin: 0;
 }
 
+/* Certification item */
+.certification-item a {
+	border-bottom: none;
+}
+
 /* Header */
 
 #header {
