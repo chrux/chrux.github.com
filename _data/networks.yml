@@ -6,9 +6,9 @@
   url: https://bitbucket.org/chrux
   class: fa-bitbucket
 
-- name: Facebook
-  url: http://www.facebook.com/christian.torres
-  class: fa-facebook
+# - name: Facebook
+#   url: http://www.facebook.com/christian.torres
+#   class: fa-facebook
 
 - name: LinkedIn
   url: http://www.linkedin.com/pub/christian-torres/25/539/521
