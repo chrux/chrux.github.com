@@ -1,3 +1,21 @@
+- name: Lion Desk
+  url:
+    - name: Amazon Alexa Skill
+      url: http://bit.ly/lion-desk-alexa
+      class: alexa
+  thumb: liondesk-thumb.png
+  pic: liondesk.png
+  summary: |
+    LionDesk is an Integrated CRM Platform, my job there was to develop a skill for alexa, amazon voice assistant.
+  date: April 24th - June 1st 2018
+  role:
+    - Developer
+  client: "LionDesk"
+  site: http://liondesk.com
+  type:
+    - Voice
+    - Amazon Alexa
+
 - name: Vida Silvestre
   url: 
     - name: App Store

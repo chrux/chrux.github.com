@@ -3081,7 +3081,7 @@ body.is-touch .poptrox-popup .closer {
 			display:inline-block;
 			line-height:68px;
 			margin: 4px;
-			&.iphone, &.ipad, &.ios, &.android {
+			&.iphone, &.ipad, &.ios, &.android, &.alexa {
 				color: transparent;
 				text-decoration: none;
 				border-bottom: none;
@@ -3101,6 +3101,9 @@ body.is-touch .poptrox-popup .closer {
 			}
 			&.android {
 				@include at2x('../images/available-android', png, 261px, 68px);
+			}
+			&.alexa {
+				@include at2x('../images/available-amazon-alexa', png, 261px, 68px);
 			}
 		}
 	}
