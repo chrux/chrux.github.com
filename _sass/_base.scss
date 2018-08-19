@@ -3103,7 +3103,9 @@ body.is-touch .poptrox-popup .closer {
 				@include at2x('../images/available-android', png, 261px, 68px);
 			}
 			&.alexa {
-				@include at2x('../images/available-amazon-alexa', png, 261px, 68px);
+				// overwritten width for this button
+				width: 286px;
+				@include at2x('../images/available-amazon-alexa', png, 286px, 68px);
 			}
 		}
 	}
