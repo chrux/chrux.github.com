@@ -3,3 +3,9 @@
   badge: https://university.xamarin.com/images/badges/MobileProfessional.svg
   date: "August 17th, 2018"
   where: "Xamarin University"
+
+- name: Xamarin Certified Mobile Developer
+  url: https://devconnect.xamarin.com/profile/11346
+  badge: https://university.xamarin.com/images/badges/MobileDeveloper.svg
+  date: "August 24th, 2018"
+  where: "Xamarin University"
