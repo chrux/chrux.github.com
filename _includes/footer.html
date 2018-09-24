@@ -3,7 +3,7 @@
 		<footer id="footer">
 			<ul class="icons">
 				{% for network in site.data.networks %}
-				<li><a href="{{ network.url }}" class="icon {{ network.class }}"><span class="label">{{ network.name }}</span></a></li>
+				<li><a target="_blank" href="{{ network.url }}" class="icon {{ network.class }}"><span class="label">{{ network.name }}</span></a></li>
 				{% endfor %}
 			</ul>
 			<ul class="copyright">
