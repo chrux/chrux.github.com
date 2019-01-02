@@ -1,3 +1,18 @@
+- name: "Python Packages Explorer: CLI"
+  where: Python Nicaragua
+  date: "December 1st, 2018"
+  url: https://docs.google.com/presentation/d/1tK-qYLiAajAVTKHca-zweDk6UNliuQlh3KN90VQ4XaY/edit?usp=sharing
+
+- name: "Laravel: API Restful"
+  where: Laravel Nicaragua
+  date: "October 13th, 2018"
+  url: https://docs.google.com/presentation/d/1imCJp1umfSikQw4iKowLPAJg4qCgcAUkUa_-umemn3c/edit?usp=sharing
+
+- name: "Jekyll: Intro"
+  where: Rain Nicaragua
+  date: "August 28th, 2018"
+  url: http://bit.ly/christian-jekyll-into
+
 - name: "Drupal 7: Intro"
   where: FLISOL
   date: "April 26th, 2014"
