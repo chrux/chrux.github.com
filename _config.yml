@@ -2,8 +2,8 @@
 title: Christian Torres
 email: chtorrez@gmail.com
 description: |
-  <strong>I am a Senior Full stack<br />Mobile and Web Developer</strong><br/> who also love <br/>Graphic Design.<br />
-  <strong>Working at <a href="https://nicasource.com" target="_blank">NicaSource</a> (Previously known as RAIN)</strong>
+  <strong>I am a Senior Full stack<br />Mobile and Web Developer</strong><br/> who also love Graphic Design.<br />
+  <strong>Working at <a href="https://nicasource.com" target="_blank">NicaSource</a></strong>
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://christiantorres.me" # the base hostname & protocol for your site
 
