@@ -1,14 +1,29 @@
+- name: "Angular: Unit Tests"
+  where: "NS Talks Vol. 1"
+  date: "September 26th, 2020"
+  url: "https://docs.google.com/presentation/d/1KZnvlKVPPmblu1qvDLgYWvlpKkINHB-KSxQK_9SFIws/edit?usp=sharing"
+
+- name: "Django Rest framework: Intro"
+  where: "Python Day 2 - 2019"
+  date: "February 23rd, 2019"
+  url: "https://docs.google.com/presentation/d/1ACGrHcSGw4s3eeC67eXfz1szodMNpHbSvEUZHjSXfHE/edit?usp=sharing"
+
+- name: "Introducción a desarrollo en iOS"
+  where: "Desarrolladores Móviles Nicaragua - Agosto 2019"
+  date: "August 24th, 2019"
+  url: "https://docs.google.com/presentation/d/1uji8WhhVtR9_j52PoutFBu5eCmQGG3CaplKjEbjAOaA/edit?usp=sharing"
+
 - name: "Drupal 7: Intro"
-  where: FLISOL
+  where: "FLISOL"
   date: "April 26th, 2014"
-  url: https://docs.google.com/presentation/u/1/d/1PAxoXLSjSv2RDsLq7nlXyx-1x-oPx9mUyiRIx8sHomk/edit?usp=sharing
+  url: "https://docs.google.com/presentation/u/1/d/1PAxoXLSjSv2RDsLq7nlXyx-1x-oPx9mUyiRIx8sHomk/edit?usp=sharing"
 
-- name: Assets (LESS, Compressor CSS/JS) y Django
-  where: Python Day Nicaragua #1
-  date: April 4th, 2014
-  url: https://docs.google.com/presentation/d/1d3WOPIg-xBGBWM0XA1tTj78vF9QbgDokgQevYSCFrYY/edit
+- name: "Assets (LESS, Compressor CSS/JS) y Django"
+  where: "Python Day Nicaragua #1"
+  date: "April 4th, 2014"
+  url: "https://docs.google.com/presentation/d/1d3WOPIg-xBGBWM0XA1tTj78vF9QbgDokgQevYSCFrYY/edit"
 
-- name: Introducción al Desarrollo Web con Symfony2
-  where: Co-Labora
-  date: June 19th, 2013
-  url: upload/talk/symfony2-intro/index.html
+- name: "Introducción al Desarrollo Web con Symfony2"
+  where: "Co-Labora"
+  date: "June 19th, 2013"
+  url: "upload/talk/symfony2-intro/index.html"

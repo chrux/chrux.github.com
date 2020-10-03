@@ -1,11 +1,17 @@
+- name: Angular Expert
+  url: https://app.pluralsight.com/profile/chrux
+  badge: /images/ps-angular.png
+  date: "September 21st, 2020"
+  where: "Pluralsight"
+
 - name: Xamarin Certified Mobile Professional
   url: https://devconnect.xamarin.com/profile/11346
-  badge: https://university.xamarin.com/images/badges/MobileProfessional.svg
+  badge: images/xam-professional.png
   date: "August 17th, 2018"
   where: "Xamarin University"
 
 - name: Xamarin Certified Mobile Developer
   url: https://devconnect.xamarin.com/profile/11346
-  badge: https://university.xamarin.com/images/badges/MobileDeveloper.svg
+  badge: images/xam-developer.png
   date: "August 24th, 2018"
   where: "Xamarin University"

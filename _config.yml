@@ -2,12 +2,12 @@
 title: Christian Torres
 email: chtorrez@gmail.com
 description: |
-  <strong>I am a Senior Mobile and Web<br/> Developer</strong> who also love <br/>Graphic Design.<br />
-  <strong>Working at <a href="http://rain.agency" target="_blank">RAIN</a></strong>
+  <p><strong>I am a Senior Mobile and Web<br/> Developer</strong> who also love <br/>Graphic Design.</p>
+  <p><strong>Working at <a href="https://nicasource.com" target="_blank">NicaSource</a></strong></p>
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://christiantorres.me" # the base hostname & protocol for your site
+url: "https://christiantorres.me" # the base hostname & protocol for your site
 
 # Build settings
 markdown: kramdown
 
-gems: []
+plugins: []
