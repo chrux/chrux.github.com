@@ -7,6 +7,28 @@ baseurl: "" # the subpath of your site, e.g. /blog/
 url: "https://christiantorres.me" # the base hostname & protocol for your site
 
 # Build settings
+# Settings previously forced implicitly by the github-pages gem, now explicit
+# since the site is built with plain Jekyll in GitHub Actions.
 markdown: kramdown
+highlighter: rouge
+kramdown:
+  input: GFM
+  hard_wrap: false
+  gfm_quirks: paragraph_end
+  syntax_highlighter: rouge
+  syntax_highlighter_opts:
+    default_lang: plaintext
+
+sass:
+  sass_dir: _sass
+  sourcemap: never # github-pages (Jekyll 3) did not emit .css.map files
+  silence_deprecations: [import] # css/main.scss still uses @import
 
 plugins: []
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - vendor
+  - .sass-cache
+  - .jekyll-cache
